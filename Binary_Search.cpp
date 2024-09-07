@@ -10,10 +10,10 @@ int main() {
   int lb=0;
   int ub=10;
   int flag=0;
-  int mid=(lb+ub+2)/2;
+  int mid = lb+((ub-lb)/2);
   while(lb<=ub)
     {
-      mid=(lb+ub+2)/2;
+      mid = lb+((ub-lb)/2);
       if(arr[mid]==target)
       { flag=1;
          break;
